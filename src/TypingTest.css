@@ -1,0 +1,89 @@
+.typing-test {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px;
+}
+
+.text-display p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin: 0;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  min-height: 100px;
+  white-space: pre-wrap; /* Preserves spaces/newlines */
+  width: 100%;
+  max-width: 90vw;
+}
+
+.text-display .correct {
+  color: green;
+}
+
+.text-display .incorrect {
+  color: red;
+  background: #ffe6e6;
+}
+
+.text-display .untyped {
+  color: #666;
+}
+
+.started {
+  border-color: #007bff;
+}
+
+.input-area {
+  width: 100%;
+  max-width: 600px;
+  height: 100px;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #666;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.input-area:focus {
+  outline: none;
+  border-color: #000000;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 400px;
+  background: rgb(255, 255, 255);
+  background-color: #b0cac9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.stats div {
+  font-weight: bold;
+}
+
+
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background: #0056b3;
+}
