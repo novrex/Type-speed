@@ -36,14 +36,14 @@
       "last 1 safari version"
     ]
   },
-  // package.json (important parts)
 {
   "scripts": {
-    "start": "react-scripts start",   // dev only
-    "build": "react-scripts build",   // or "vite build" for Vite
+    "start": "react-scripts start",   
+    "build": "react-scripts build",   
     "test": "react-scripts test"
   }
 }
 
 }
+
 
