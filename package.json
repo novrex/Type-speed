@@ -35,5 +35,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  // package.json (important parts)
+{
+  "scripts": {
+    "start": "react-scripts start",   // dev only
+    "build": "react-scripts build",   // or "vite build" for Vite
+    "test": "react-scripts test"
   }
 }
+
+}
+
